@@ -52,4 +52,4 @@ This file contains department-wise average salary data.
 ## 🚀 How to Run
 ```bash
 python analysis.py
-<img width="1919" height="1198" alt="Screenshot 2026-01-14 091614" src="https://github.com/user-attachments/assets/22037d26-8219-4362-8c21-6a9054f52962" />
+<img width="1919" height="1198" alt="Screenshot 2026-01-14 091614" src="https://github.com/user-attachments/assets/826cdb14-7e0c-49fd-8cf8-96c133b8ff90" />
