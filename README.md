@@ -1,13 +1,10 @@
-# employee-salary-data-analysis
-Employee salary data analysis and automated department-wise reporting using Python Pandas.
-
-# Employee Salary Data Analysis using Python Pandas
+# Employee Salary Data Analysis & Reporting using Python Pandas
 
 ## 📌 Project Overview
-This project analyzes employee salary data using Python Pandas.  
-The goal is to clean raw CSV data, perform basic data analysis, and generate a department-wise salary report automatically.
+This project performs real-world employee salary data analysis using Python Pandas.  
+It simulates a common company task where raw employee data is cleaned, analyzed, and converted into an automated department-wise salary report.
 
-This type of task is commonly used in real companies for reporting and decision-making.
+The project demonstrates practical data handling, automation, and reporting skills required for entry-level data and automation roles.
 
 ---
 
@@ -16,40 +13,52 @@ This type of task is commonly used in real companies for reporting and decision-
 - Pandas
 - CSV File Handling
 - VS Code
+- GitHub
 
 ---
 
-## 📂 Dataset
-The dataset contains employee details such as:
-- Name
-- Department
-- Salary
-- Age
+## 📂 Dataset Description
+The input dataset (`data.csv`) contains employee details:
+- Name  
+- Department  
+- Salary  
+- Age  
 
-Sample input file: `data.csv`
+The data is assumed to be raw company data and is processed programmatically.
 
 ---
 
-## ⚙️ What This Script Does
-1. Reads employee data from a CSV file  
-2. Checks data structure and missing values  
-3. Converts salary and age columns to proper numeric types  
-4. Calculates:
-   - Average salary
-   - Department-wise average salary
-5. Generates an output report as a CSV file
+## ⚙️ Project Workflow
+1. Read employee data from a CSV file  
+2. Inspect data structure and validate column types  
+3. Clean and convert salary and age fields into numeric format  
+4. Perform data analysis:
+   - Calculate average salary
+   - Calculate department-wise average salary
+5. Generate an automated output report in CSV format  
 
 ---
 
 ## 📊 Output
-- Console summary of analysis  
-- Generated file:
+- Console output showing analysis summary  
+- Generated CSV report:
 
-This file contains department-wise average salary data.
+
+This report contains department-wise average salary data and can be directly used by management teams.
 
 ---
 
-## 🚀 How to Run
+## 🖼️ Screenshots
+
+### 🔹 Script Execution Output
+<img width="1919" height="1198" alt="Screenshot 2026-01-14 091614" src="https://github.com/user-attachments/assets/b5fe3412-2d7b-41b4-91be-28bf36472f68" />
+.png)
+
+📌 These screenshots show successful execution and automated report generation.
+
+---
+
+## 🚀 How to Run the Project
+1. Clone the repository
 ```bash
-python analysis.py
-<img width="1919" height="1198" alt="Screenshot 2026-01-14 091614" src="https://github.com/user-attachments/assets/826cdb14-7e0c-49fd-8cf8-96c133b8ff90" />
+git clone https://github.com/arbajhussain199/employee-salary-data-analysis.git
